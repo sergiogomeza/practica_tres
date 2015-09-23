@@ -5,8 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="title">Calculadora</string>
     <string name="message">Ingrese los numeros:</string>
-    <string name="message1">operando 1:  </string>
-    <string name="message2">operando 2:  </string>
+    <string name="message1">operando 1</string>
+    <string name="message2">operando 2</string>
     <string name="message3">Elija la operación:</string>
     <string name="op1">Suma</string>
     <string name="op2">Resta</string>

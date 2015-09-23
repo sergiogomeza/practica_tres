@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray">
+    android:background="@color/powderblue">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,14 +14,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             android:textSize="30dp"/>
         <TextView
             android:text="@string/message"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/maroon"
+            android:textStyle="bold"
             android:textSize="15dp"/>
 
         <LinearLayout
@@ -29,44 +31,37 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="15dp">
-            <TextView
-                android:text="@string/message1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:textSize="15dp"/>
+
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
                 android:textColor="@color/white"
                 android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:hint="@string/message1"
+                android:textColorHint="@color/blue"
                 android:id="@+id/eNum1"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp">
-            <TextView
-                android:text="@string/message2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:textSize="15dp"/>
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="10dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
                 android:textColor="@color/white"
                 android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:hint="@string/message2"
+                android:textColorHint="@color/blue"
                 android:id="@+id/eNum2"/>
+
         </LinearLayout>
+
         <TextView
             android:text="@string/message3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:textColor="@color/maroon"
             android:layout_marginTop="10dp"
             android:textSize="15dp"/>
         <RadioGroup
@@ -74,28 +69,28 @@
             android:layout_height="wrap_content">
             <RadioButton
                 android:text="@string/op1"
-                android:textColor="@color/white"
+                android:textColor="@color/maroon"
                 android:layout_marginLeft="25dp"
                 android:id="@+id/op1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:text="@string/op2"
-                android:textColor="@color/white"
+                android:textColor="@color/maroon"
                 android:layout_marginLeft="25dp"
                 android:id="@+id/op2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:text="@string/op3"
-                android:textColor="@color/white"
+                android:textColor="@color/maroon"
                 android:layout_marginLeft="25dp"
                 android:id="@+id/op3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:text="@string/op4"
-                android:textColor="@color/white"
+                android:textColor="@color/maroon"
                 android:layout_marginLeft="25dp"
                 android:id="@+id/op4"
                 android:layout_width="match_parent"
@@ -113,15 +108,17 @@
 
             <TextView
                 android:text="@string/ans"
-                android:textColor="@color/white"
-                android:textSize="15dp"
+                android:textColor="@color/maroon"
+                android:textSize="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
-                android:text="0"
+                android:hint="Resultado"
                 android:id="@+id/ans"
                 android:layout_width="match_parent"
-                android:textColor="@color/white"
+                android:textColor="@color/maroon"
+                android:textSize="20dp"
+                android:textColorHint="@color/blue"
                 android:layout_height="wrap_content" />
 
         </LinearLayout>

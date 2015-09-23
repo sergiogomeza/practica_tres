@@ -43,16 +43,25 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(op1.isChecked()){
                     r=a+b;
+                    ans.setText(String.valueOf(r));
                 }else if(op2.isChecked()){
                     r=a-b;
+                    ans.setText(String.valueOf(r));
                 }else if(op3.isChecked()){
                     r=a*b;
+                    ans.setText(String.valueOf(r));
                 }else if(op4.isChecked()){
-                    r=a/b;
+                    if(b!=0){
+                        r=a/b;
+                        ans.setText(String.valueOf(r));
+                    }else{
+                        ans.setText("NaN");
+                    }
                 }else {
                     r=0;
+                    ans.setText(String.valueOf(r));
                 }
-                ans.setText(String.valueOf(r));
+
             }
         });
     }

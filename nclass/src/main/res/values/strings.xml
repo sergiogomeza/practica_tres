@@ -4,7 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="Curso">Calculadora de Nota</string>
-    <string name="advert">Ingrese su calificación cada uno de los campos,para conocer la nota final del curso.
+    <string name="advert">Ingrese su calificación en cada uno de los campos, para conocer la nota final del curso.
         (Recuerde que la nota está en el rango de 0-5)</string>
     <string name="Quiz">Quices: </string>
     <string name="Exp">Exposiciones: </string>
