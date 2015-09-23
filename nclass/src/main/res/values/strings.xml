@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NClass</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Curso">Calculadora de Nota</string>
+    <string name="advert">Ingrese su calificación cada uno de los campos,para conocer la nota final del curso.
+        (Recuerde que la nota está en el rango de 0-5)</string>
+    <string name="Quiz">Quices: </string>
+    <string name="Exp">Exposiciones: </string>
+    <string name="lab">Prácticas de Laboratorio: </string>
+    <string name="Fpro">Proyecto Final: </string>
+    <string name="boton">Calcular</string>
+    <string name="ans">Nota final: </string>
+    <string name="Excelent">Felicitaciones, demostraste muy buenas aptitudes en este curso</string>
+    <string name="Win">Aprobaste</string>
+    <string name="Lose">Reprobaste, debes esforzarte más la próxima vez</string>
+    <string name="Error">Ingresaste una nota que no es válida</string>
+</resources>

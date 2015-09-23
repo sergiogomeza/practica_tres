@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">register</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Registro</string>
+    <string name="tintr">Bienvenido, ingrese sus datos personales a continuación:</string>
+    <string name="name">Nombre: </string>
+    <string name="Hname">INGRESE SU NOMBRE</string>
+    <string name="lname">Apellido: </string>
+    <string name="HLname">INGRESE SU APELLIDO</string>
+    <string name="ide">Id: </string>
+    <string name="HID">INGRESE DOCUMENTO</string>
+    <string name="sex">Sexo: </string>
+    <string name="man">Masculino</string>
+    <string name="woman">Femenino</string>
+    <string name="date">Fecha de nacimiento: </string>
+    <string name="place">Lugar de nacimiento: </string>
+    <string name="date2">F.Nac: </string>
+    <string name="place2">L.Nac: </string>
+    <string name="hobbies">Hobby: </string>
+    <string name="h1">Futbol</string>
+    <string name="h2">Lectura</string>
+    <string name="h3">Natación</string>
+    <string name="h4">Videojuegos</string>
+    <string name="button">Aceptar</string>
+</resources>
