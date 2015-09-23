@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Geometry</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app">MyGeom</string>
+    <string name="sel">Elija la figura geométrica por favor: </string>
+    <string name="tri">Triángulo</string>
+    <string name="circ">Circulo</string>
+    <string name="cuad">Cuadrado</string>
+    <string name="rec">Rectángulo</string>
+    <string name="rad">Radio (metros)</string>
+    <string name="bas">Base (metros)</string>
+    <string name="alt">Altura (metros)</string>
+    <string name="lad">Lado (metros)</string>
+    <string name="button">Calcular</string>
+    <string name="area">Area: </string>
+</resources>

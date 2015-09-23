@@ -1,1 +1,1 @@
-include ':app', ':operation', ':register', ':nclass'
+include ':app', ':operation', ':register', ':nclass', ':geometry'
